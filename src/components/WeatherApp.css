@@ -1,0 +1,22 @@
+.weatherCard {
+  border: 1px solid white;
+  max-width: 20rem;
+  max-height: 20rem;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.weatherContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.placeName {
+  line-height: 3rem;
+}
