@@ -1,16 +1,32 @@
-# React + Vite
+# React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast, responsive, and minimalist weather dashboard built with React and Vite. This application allows users to search for any city and retrieve real-time weather conditions using the OpenWeatherMap API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Real-Time Weather Data:** Fetches up-to-date weather conditions, including current status and descriptions.
+* **City Search:** Easily search for any city worldwide to get instant localized forecasts.
+* **Modern Tooling:** Built with Vite for lightning-fast hot module replacement (HMR) and optimized builds.
+* **Clean UI:** A simple, intuitive user interface styled with standard CSS.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend:** React (v19)
+* **Build Tool:** Vite
+* **Styling:** CSS
+* **API:** OpenWeatherMap API
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these instructions to get a local copy up and running on your machine.
+
+### Prerequisites
+
+* Node.js installed on your local machine.
+* An API key from [OpenWeatherMap](https://openweathermap.org/api).
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/ClydeCenteno1/react-weather-app.git](https://github.com/ClydeCenteno1/react-weather-app.git)
